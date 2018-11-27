@@ -4,6 +4,8 @@ body {
 
 header {
     background-color: #e24647;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1,
@@ -15,5 +17,3 @@ h1 {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-nav a {}

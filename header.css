@@ -45,3 +45,12 @@
         font-family: Arial, sans-seri;
         cursor: pointer;
     }
+    
+    .container_center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 80%;
+        background-color: #e24647;
+    }

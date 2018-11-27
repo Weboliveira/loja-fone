@@ -1,4 +1,5 @@
-README.md#HTML 5 
+README.md
+#HTML 5 
 
 É uma linguagem de marcação que tem as seguintes responsabilidades:
 
@@ -37,5 +38,18 @@ Usamos ele quando queremos definir titulos.
 - ` <nav> </nav> ` => o proprio nome ja informa é uma nave com os links, também ajudando na organização e na semantica.
 
 
+#CSS 
 
-CSS 
+No css para chamar as tag é so coloca no elemento 
+
+``` 
+header {background-color: #e24647;}
+``` 
+
+-  `background-color: #e24647; ` => ele muda a cor do elemento.
+
+- `color: #fff;` => elem muda a cor da texto
+
+- ` text-decoration: none; ` => ele tira o sublinhado.
+
+- ` font-size: 40px; ` => ele ajusta o tamnho da fonte

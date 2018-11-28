@@ -1,0 +1,45 @@
+.descricao-strore dl,
+.descricao-strore dt,
+.descricao-strore dd,
+.descricao-strore a {
+    color: #fff;
+    font-family: Arial, "Roboto", sans-serif;
+    font-weight: normal;
+}
+
+.descricao-strore dl,
+.descricao-strore dd,
+.descricao-strore a {
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.titulo-produto-store {
+    font-size: 25px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.avaliacao-store {
+    margin-top: 100px;
+}
+
+.frete-store {
+    margin-top: 59px;
+}
+
+.price-store {
+    margin-top: 63px;
+}
+
+.descrition-store {
+    margin-top: 73px;
+}
+
+.saibaMais-store a {
+    margin-top: 30px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 218px;
+}

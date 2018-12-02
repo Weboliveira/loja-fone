@@ -27,3 +27,25 @@
 .header-store .action.-last {
   margin-right: 0;
 }
+
+.header-store form #bucar {
+  background: transparent;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 360px;
+  margin-left: 315px;
+  color: #fff;
+
+  border-color: #fff;
+  font-size: 20px;
+  float: left;
+  line-height: 31px;
+ 
+}
+
+.header-store form #bucar::placeholder {
+  color: #fff;
+  font-size: 20px;
+
+}

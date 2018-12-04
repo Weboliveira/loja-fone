@@ -28,7 +28,7 @@
   margin-right: 0;
 }
 
-.header-store form #bucar {
+ #bucar {
   background: transparent;
   border-left: none;
   border-right: none;
@@ -44,7 +44,7 @@
  
 }
 
-.header-store form #bucar::placeholder {
+#bucar::placeholder {
   color: #fff;
   font-size: 20px;
 

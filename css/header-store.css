@@ -17,12 +17,42 @@
   font-size: 21px;
   font-family: "Segoe UI", "Roboto", sans-serif;
   float: right;
+  position: relative;
+}
+
+.header-store .box {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  margin-right: 60px;
+  text-align: center;
+
 }
 
 .header-store .action {
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+.header-store .action:after {
+  border-bottom: 1px solid #fff;
+  display: block;
+  content: "";
+  width: 0;
+  padding-bottom: 15px;
+  transition: all 1s ease;
+
+}
+
+.header-store .action:hover:after {
+  width: 100%;
+  padding-bottom: 15px;
+
 }
 
 .header-store .action.-last {
@@ -50,4 +80,3 @@
   font-size: 20px;
 
 }
-

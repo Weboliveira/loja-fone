@@ -54,6 +54,7 @@
 
 .description-product figure.heart {
   position: absolute;
-  left: -3vw;
-  top: 1vh;
+  transform: translateX(-100%);
+  left: -47px;
+  top: 8px;
 }

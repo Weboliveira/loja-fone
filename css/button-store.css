@@ -13,13 +13,17 @@
   text-decoration: none;
   border: none;
   cursor: pointer;
+  transition: all 300ms linear;
 }
 
 .button-store:hover {
-  color: #252c41;
+  color: #e24647;
   background-color: #fff;
 }
 
+.button-store:active{
+  transform: scale(0.9);
+}
 .button-store.-second {
   background-color: transparent;
   border: 2px solid #fff;

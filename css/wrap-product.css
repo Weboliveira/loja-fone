@@ -9,4 +9,28 @@
   position: absolute;
   bottom: 0;
   transform: translateY(calc(100% + 40px));
+}
+@media (max-width:1261px) {
+  .wrap-product {
+    width: 484px;
   }
+}
+@media (max-width:1192px) {
+  .description-product > .text {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .wrap-product {
+    width: 460px;
+  }
+}
+@media (max-width:942px) {
+  .wrap-product > .buttons {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(calc(100% + 1px));
+
+  }
+}

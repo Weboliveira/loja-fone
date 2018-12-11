@@ -7,3 +7,37 @@
   border-bottom-right-radius: 150px;
   margin-right: 157px;
 }
+
+.photo-product > img {
+  width: 100%;
+  height: auto;
+  max-width: 547px;
+}
+@media (max-width:1193px) {
+  .photo-product {
+    margin-right: 87px;
+  }
+}
+@media (max-width:1123px) {
+  .photo-product {
+    margin-right: 65px;
+  }
+
+}
+@media (max-width:1123px) {
+  .photo-product {
+    margin-right: 29px;
+    max-width: 450px;
+    height: 484px;
+  }
+
+}
+@media (max-width:942px) {
+  .photo-product {
+    margin-right: 29px;
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+    text-align: center;
+  }
+}

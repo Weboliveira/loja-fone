@@ -72,3 +72,20 @@
   transition: 300ms linear;
 
 }
+@media (max-width:1222px) {
+  .description-product > .item.-last {
+    margin-bottom: 30px;
+   
+  }
+
+  .description-product > .text {
+
+    margin-bottom: 30px;
+  }
+}
+@media (max-width:942px) {
+  .wrap-product{
+    width: 90%;
+    padding: 30px;
+  }
+}

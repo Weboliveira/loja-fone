@@ -21,9 +21,10 @@
   background-color: #fff;
 }
 
-.button-store:active{
+.button-store:active {
   transform: scale(0.9);
 }
+
 .button-store.-second {
   background-color: transparent;
   border: 2px solid #fff;
@@ -44,4 +45,14 @@
   border: none;
   color: inherit;
   text-decoration: inherit;
+
+}
+@media (max-width:540px) {
+  .button-store,
+  .button-store.-second {
+    width: 100%;
+  }
+  .button-store.-second{
+     margin-bottom: 15px;  
+  }
 }

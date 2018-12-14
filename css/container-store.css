@@ -8,7 +8,7 @@
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-@media (max-width: 1470px),(max-height:952px) {
+@media (max-height:952px) {
   .container-store {
     position: static;
     transform: none;

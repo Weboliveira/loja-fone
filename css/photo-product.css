@@ -13,31 +13,17 @@
   height: auto;
   max-width: 547px;
 }
-@media (max-width:1193px) {
-  .photo-product {
-    margin-right: 87px;
-  }
-}
-@media (max-width:1123px) {
-  .photo-product {
-    margin-right: 65px;
-  }
+@media (max-width:1320px) {
 
-}
-@media (max-width:1123px) {
   .photo-product {
-    margin-right: 29px;
-    max-width: 450px;
-    height: 484px;
-  }
-
-}
-@media (max-width:942px) {
-  .photo-product {
-    margin-right: 29px;
-    max-width: 100%;
-    height: auto;
-    width: 90%;
+    display: block;
+    width: 100%;
+    border-radius: 0;
     text-align: center;
+  }
+}
+@media (max-width:525px) {
+  .photo-product{
+    height: auto;
   }
 }

@@ -72,20 +72,28 @@
   transition: 300ms linear;
 
 }
-@media (max-width:1222px) {
+@media (max-width:1320px) {
+  .description-product {
+    padding-top: 3vh;
+
+  }
+
   .description-product > .item.-last {
     margin-bottom: 30px;
-   
+
   }
 
   .description-product > .text {
 
     margin-bottom: 30px;
   }
-}
-@media (max-width:942px) {
-  .wrap-product{
-    width: 90%;
-    padding: 30px;
+
+  .description-product > .cont-star {
+    float: left;
+    margin-right: 4px;
   }
+   .description-product > .title{
+     text-align: center;
+     font-size: 30px;
+   }
 }

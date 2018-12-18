@@ -57,7 +57,7 @@
   text-decoration: none;
 }
 
-.description-product figure.heart {
+.description-product figure.-heart {
   position: absolute;
 
   left: -65px;
@@ -67,7 +67,7 @@
   transition: 300ms linear;
 }
 
-.description-product figure.heart:hover {
+.description-product figure.-heart:hover {
   transform: scale(1.3);
   transition: 300ms linear;
 

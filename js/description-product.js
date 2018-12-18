@@ -15,4 +15,5 @@ $button.addEventListener("click", buttonClick)
 
 function buttonClick() {
     console.log("clicou no botão");
+    alert("Adicionou");
 }

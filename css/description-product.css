@@ -115,3 +115,12 @@
         font-size: 30px;
     }
 }
+
+@media (max-width:475px) {
+    .description-product>.item.-heart {
+        position: static;
+    }
+    .description-product figure.-heart {
+        top: 70px;
+    }
+}

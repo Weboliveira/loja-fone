@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/wrap-product.css" />
     <link rel="stylesheet" href="css/description-product.css" />
     <link rel="stylesheet" href="css/button-store.css" />
+    <link rel="stylesheet" href="css/input-search.css" />
+    <link rel="stylesheet" href="css/menu.css" />
 
 
 </head>
@@ -31,10 +33,36 @@
 
 
             <nav class="navigation">
-                <input type="search" class="-active" placeholder="Buscar" name="buscar" aria-label="Buscar">
-                <div class="box"><a class="action" href="http://collabcode.training">Produtos</a></div>
-                <div class="box"><a class="action" href="http://collabcode.training">Serviços</a></div>
-                <div class="box"><a class="action -last" href="http://collabcode.training">Carrinho (10)</a></div>
+                <form class="input-search">
+                    <input type="search" class="content" placeholder="Buscar" name="buscar" aria-label="Buscar">
+                    <!--
+                    --><input type="image" class="icon -open -active" src="img/search.png">
+                    <!--
+                    --><input type="image" class="icon -close " src="img/closed.png">
+
+                </form>
+
+
+
+                <div class="menu">
+
+                    <a class="open-menu" href=""><img src="img/menu.png"></a>
+
+                    <div class="box"><a class="action" href="http://collabcode.training">Produtos</a></div>
+                    <!--
+                    -->
+                    <div class="box"><a class="action" href="http://collabcode.training">Serviços</a></div>
+                    <!--
+                    -->
+                    <div class="box"><a class="action -last" href="http://collabcode.training">Carrinho (10)</a></div>
+                    <!---->
+
+
+
+                </div>
+
+
+
 
 
 
@@ -88,10 +116,11 @@
 
     </div>
     </section>
-  
+
     <script src="js/description-product.js"></script>
     <script src="js/home.js"></script>
-      <script src="js/header.js"></script>
+    <script src="js/input-search.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 
-</html>
+</html>z'

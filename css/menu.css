@@ -1,0 +1,86 @@
+.header-store .box {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.header-store .action {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 60px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.header-store .action:after {
+    border-bottom: 1px solid #fff;
+    display: block;
+    content: "";
+    width: 0;
+    padding-bottom: 15px;
+    transition: all 1s ease;
+}
+
+.header-store .action:hover:after {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.header-store .action.-last {
+    margin-right: 0;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu .closed {
+    display: none;
+}
+
+@media (max-width:660px) {
+    .menu-mobile {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background: #fff;
+        width: 9px;
+        height: 10px;
+        padding: 10px;
+        background: url("../img/menu.png") no-repeat #fff center center;
+    }
+    .menu {
+        transform: translateX(calc(100% - 26px));
+        position: absolute;
+        top: 0;
+        width: 200px;
+        color: #000;
+        right: 0;
+    }
+    .menu.-active {
+        transform: translateX(0);
+    }
+    .open-menu {
+        display: block;
+        position: relative;
+        left: 0;
+        width: 25px;
+    }
+    .header-store .action {
+        width: 100%;
+        padding-bottom: 5px;
+    }
+    .header-store .box {
+        background: #fff;
+        margin-right: 0;
+        text-align: center;
+        width: 100%;
+        display: block;
+        right: -25px;
+        top: -29px;
+        padding-top: 3px;
+    }
+}

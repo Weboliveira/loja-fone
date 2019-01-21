@@ -75,7 +75,7 @@
         background-image: url(../img/closed.png);
         background-size: 65%;
     }
-    .menu .open-menu .header-store .box {
+    .header-store .box {
         display: block;
     }
     .header-store .action {
